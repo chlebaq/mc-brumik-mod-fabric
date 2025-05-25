@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "group": "brumik",
+  "category": "food",
+  "ingredient": {
+    "item": "brumikmod:brumik"
+  },
+  "result": {
+    "id": "brumikmod:burned_brumik"
+  },
+  "experience": 5,
+  "cookingtime": 600
+}

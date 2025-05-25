@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "brumikmod",
+	"version": "${version}",
+	"name": "Brumik Mod",
+	"description": "A Minecraft Mod about Brumik",
+	"authors": [
+		"chlebaq"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL2",
+	"icon": "assets/brumikmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"chlebaq.brumikmod.BrumikMod"
+		],
+		"fabric-datagen": [
+			"chlebaq.brumikmod.BrumikModDataGenerator"
+		],
+		"client": [
+			"chlebaq.brumikmod.BrumikModClient"
+		]
+	},
+	"mixins": [
+		"brumikmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
