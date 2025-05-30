@@ -1,6 +1,7 @@
 package chlebaq.brumikmod.item;
 
 import chlebaq.brumikmod.BrumikMod;
+import chlebaq.brumikmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -19,6 +20,11 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_BRUMIK);
                         entries.add(ModItems.BURNED_BRUMIK);
                         entries.add(ModItems.BURNING_BRUMIK);
+                        entries.add(ModItems.MAGIC_BRUMIK);
+                        entries.add(ModItems.BRUMIK_SHARD);
+                        entries.add(ModItems.MAGIC_BRUMIK_SHARD);
+
+                        entries.add(ModBlocks.BRUMIK_ORE);
                     }).build());
 
     public static void registerItemGroups() {

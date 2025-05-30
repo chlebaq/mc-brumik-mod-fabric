@@ -1,5 +1,7 @@
 package chlebaq.brumikmod;
 
+import chlebaq.brumikmod.block.ModBlocks;
+import chlebaq.brumikmod.entity.ModEntities;
 import chlebaq.brumikmod.item.ModItemGroups;
 import chlebaq.brumikmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,6 +17,8 @@ public class BrumikMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+		ModEntities.registerModEntities();
 	}
 }

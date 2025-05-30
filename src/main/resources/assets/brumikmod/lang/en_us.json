@@ -4,6 +4,11 @@
   "item.brumikmod.raw_brumik": "Raw Brumik",
   "item.brumikmod.burned_brumik": "Burned Brumik",
   "item.brumikmod.burning_brumik": "Burning Brumik",
+  "item.brumikmod.magic_brumik": "Magic Brumik",
+  "item.brumikmod.brumik_shard": "Brumik Shard",
+  "item.brumikmod.magic_brumik_shard": "Magic Brumik Shard",
+
+  "block.brumikmod.brumik_ore": "Brumik Ore",
 
   "itemgroup.brumikmod.brumik_items": "Brumik Items"
 }
